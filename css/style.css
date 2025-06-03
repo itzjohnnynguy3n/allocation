@@ -15,6 +15,14 @@
     z-index: 99;
 }
 
+#allocationDisplay {
+	display: none;
+	padding: 10px;
+	background-color: #f0f0f0;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -234,7 +242,7 @@
 }
 
 .page-header {
-    background:url(carousel-1.jpg) center center no-repeat;
+    background:rgba(43, 57, 64, .5) url(carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 

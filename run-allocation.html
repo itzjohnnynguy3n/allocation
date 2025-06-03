@@ -29,6 +29,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+	
+	
+
+
 </head>
 
 <body>
@@ -56,7 +60,7 @@
 
 
         <!-- Header End -->
-        <div class="container-xxl py-5 bg-dark page-header mb-5">
+        <div class="container-xxl py-5 bg-dark page-header mb-5" >
             <div class="container my-5 pt-5 pb-4">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">Run Allocation</h1>
                 <nav aria-label="breadcrumb">
@@ -168,8 +172,76 @@
 					</tr>
 				</table>
 				<br></br>
-				<button class="btn btn-primary py-md-3 px-md-5 me-3" type="submit">Run Allocation</button>
+				<button class="btn btn-primary py-md-3 px-md-5 me-3" type="submit" onclick="document.getElementById('allocationDisplay').style.display='block'">Run Allocation</button>
                 
+				
+				  <div id="allocationDisplay">
+				    				<table class="container text-center">
+					<tr>
+						<th>RUN_ID</th>
+						<th>MONTH</th>
+						<th>DOCUMENT_NUMBER</th>
+						<th>ALLOCATION_DOC_NUMBER</th>
+						<th>ACCOUNT</th>
+						<th>P3_CODE</th>
+						<th>P4_CODE</th>
+						<th>ERP_SKU</th>
+						<th>RATIO_SKU</th>
+						<th>AMOUNT</th>
+						<th>RATIO</th>
+						<th>RATIO_TYPE</th>
+					</tr>
+					
+					<tr>
+						<td>123</td>
+						<td>12</td>
+						<td>462325</td>
+						<td>3646243743435</td>
+						<td>2225555</td>
+						<td>P32932</td>
+						<td>P42932</td>
+						<td></td>
+						<td>SKU232941</td>
+						<td>$50.00</td>
+						<td>.5</td>
+						<td>P4_RATIO</td>
+					</tr>
+					
+					<tr>
+						<td>123</td>
+						<td>12</td>
+						<td>462325</td>
+						<td>3646243743435</td>
+						<td>2225555</td>
+						<td>P32932</td>
+						<td>P42932</td>
+						<td></td>
+						<td>SKU232425</td>
+						<td>$200.00</td>
+						<td>.25</td>
+						<td>P4_RATIO</td>
+					</tr>
+					
+										<tr>
+						<td>123</td>
+						<td>12</td>
+						<td>462325</td>
+						<td>3646243743435</td>
+						<td>2225555</td>
+						<td>P32932</td>
+						<td>P42932</td>
+						<td></td>
+						<td>SKU309878</td>
+						<td>$300.00</td>
+						<td>.25</td>
+						<td>P4_RATIO</td>
+					</tr>
+
+				</table>
+				  </div>
+
+				
+				
             </div>
         </div>
         <!-- Contact End -->
